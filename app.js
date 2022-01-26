@@ -83,11 +83,12 @@ function displayCatchphrases() {
     for (let catchphrase of catchphrases) {
     // and for each catchphrase
     // create an HTML element with the catchphrase as its text content
-        const p = document.createElement('p');
+        const CATCHPHRASELIST = document.createElement('p');
     
     // and append that HTML element to the cleared-out DOM
-        p.classList.add('catchphrase');
-        p.textContent = catchphrase;
+        CATCHPHRASELIST.classList.add('catchphrase');
+        CATCHPHRASELIST.textContent = catchphrase;
         // console.log(catchphrases)
+        catchphrasesEl.append(CATCHPHRASELIST);
 }
 }
