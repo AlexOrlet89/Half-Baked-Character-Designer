@@ -1,6 +1,4 @@
 export function makeStatsString(headCount, middleCount, bottomCount) {
-    return `Head Changes: ${headCount}
-            Middle Changes: ${middleCount}
-            Bottom Changes ${bottomCount}
-            Catchphrases: `;
+    return `You clicked on the head ${headCount} times, on the middle ${middleCount} times, and on the bottom ${bottomCount} time. And everybody loves your character's catchphrases:`;
 }
+
